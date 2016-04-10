@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('nowerClient', ['ui.router', 'ngMaterial', 'toastr']);
+    .module('nower', ['ui.router', 'ngMaterial', 'toastr']);
 
 })();

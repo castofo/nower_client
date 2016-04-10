@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('nowerClient')
+    .module('nower')
     .controller('MainController', MainController);
 
   /** @ngInject */

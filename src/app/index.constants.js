@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('nowerClient')
+    .module('nower')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 
