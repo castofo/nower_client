@@ -6,7 +6,7 @@
     .controller('LoginController', LoginController);
 
   /** @ngInject */
-  function LoginController(loginService, $cookies) {
+  function LoginController(loginService, $cookies, toastr) {
     var vm = this;
     vm.user = {};
 
@@ -25,7 +25,7 @@
           showSuccessToastr();
         }, function(response) {
           console.log(response.data);
-          showErrorToastr(response.status);
+          showErrorToastr('' + response.status);
         });
     };
   }

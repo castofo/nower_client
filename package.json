@@ -1,9 +1,6 @@
 {
   "name": "nower-client",
   "version": "0.0.0",
-  "dependencies": {
-    "angular-cookies": "^1.6.1"
-  },
   "scripts": {
     "test": "gulp test"
   },
